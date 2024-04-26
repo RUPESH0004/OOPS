@@ -55,7 +55,9 @@ int main ()
     A.deposit(depositamount);
     A.deposit(depositamount,7);
     cout<<"the current balance is :"<<A.checkBalance();
-    cout<<"the current balance is :"<<A.deposit(depositamount,7);
+    
+    
+    
    
  
 }
