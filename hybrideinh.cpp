@@ -21,13 +21,13 @@ public:
         return name + " " + to_string(age);
     }
 };
-class Employee : public person
+class Employee : public virtual person
 {
 };
-class student : public person
+class student : public virtual person
 {
     string course;
-
+ 
 public:
     student()
     {
@@ -45,7 +45,10 @@ public:
 };
 class intern : public Employee, public student
 {
-    
+    public:
+    intern (){
+        cout<<"\n intern created";
+    }
 };
 
 int main()

@@ -44,6 +44,7 @@ class Employee:public Person{
     }
 };
 int main ()
+
 {
    Employee p;
    p.SetData("Amit",23,84748);
