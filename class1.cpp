@@ -28,5 +28,6 @@ int main ()
  p.getPrice("pen",45);
  p.finalPrice();
  cout << "the final price is "<<p.finalPrice();
+ // this is adding the new repo using new command line 
 
 }
